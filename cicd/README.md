@@ -35,6 +35,8 @@ organization level.
 specify in the workstation.env file.
 * Enable the Context Manager and Cloud Billing API in the project in which you create the Cloud Build
 pipeline.
+* If you are specifying an existing admin project in the pipeline setup (parameter `_TF_ADMIN_PROJECT`),
+make sure the Cloud Build service account has the Project Owner role on the admin project.
 
 ### Cloud Build Pipeline setup
 Navigate to Cloud Build in the GCP console and wait until the API is enabled (if not already done).
