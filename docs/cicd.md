@@ -41,7 +41,7 @@ make sure the Cloud Build service account has the Project Owner role on the admi
 ### Cloud Build Pipeline setup
 Navigate to Cloud Build in the GCP console and wait until the API is enabled (if not already done).
 Connect to the repository that contains the code for the PCI-GKE-blueprint (e.g. a fork of the
-upstream repository or a seperate clone in Google Cloud Source Repositories).
+upstream repository or a separate clone in Google Cloud Source Repositories).
 
 Define a trigger for Cloud Build. For the Build configuration enter `cicd/cloudbuild.yml`.
 Create the following Substitution variables and enter values according to the workstation.env file:
